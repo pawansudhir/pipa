@@ -1,0 +1,10 @@
+<script>
+    var regex = new RegExp("paw","i");
+   var arr = ["pawan","paw","ngh"];
+   var newArray = arr.filter(v => {
+       regex.test(v);
+   });
+  console.log( newArray.map(f => {
+       console.log(`my name is ${f}`);
+   }))
+</script>
